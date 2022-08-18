@@ -20,4 +20,9 @@ body{
     background-color:rgba(18, 17, 29, 0.588);
 
     /*INFO CHIP CONTEINER*/
+    .info-chip-conteiner{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
 }
