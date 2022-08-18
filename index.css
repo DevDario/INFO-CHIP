@@ -110,5 +110,30 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 40px;
+  /*PORTFOLIO SECTION*/
+}
+
+.info-chip-links .portfolio-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  /*THE ICON*/
+  /*THE ICON NAME*/
+}
+
+.info-chip-links .portfolio-section .portfolio-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.info-chip-links .portfolio-section .icon-name {
+  font-weight: 200;
+  color: #FFF;
+  margin: 10px 0px;
 }
 /*# sourceMappingURL=index.css.map */
