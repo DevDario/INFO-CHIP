@@ -16,4 +16,13 @@
 body {
   background-color: #0E0C14;
 }
+
+/*INFO CHIP*/
+.info-chip {
+  width: 450px;
+  height: 350px;
+  border-radius: 50px;
+  background-color: rgba(18, 17, 29, 0.588);
+  /*INFO CHIP CONTEINER*/
+}
 /*# sourceMappingURL=index.css.map */

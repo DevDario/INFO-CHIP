@@ -11,3 +11,13 @@ $chipColor:#12111D;
 body{
     background-color: $bodyColor;
 }
+
+/*INFO CHIP*/
+.info-chip{
+    width: 450px;
+    height: 350px;
+    border-radius:50px;
+    background-color:rgba(18, 17, 29, 0.588);
+
+    /*INFO CHIP CONTEINER*/
+}
