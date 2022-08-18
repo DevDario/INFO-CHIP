@@ -19,9 +19,11 @@ body {
 /*INFO CHIP*/
 .info-chip {
   width: 450px;
-  height: 350px;
+  height: 550px;
   border-radius: 50px;
-  background-color: rgba(18, 17, 29, 0.588);
+  padding: 10px;
+  background-color: rgba(27, 25, 48, 0.49);
+  margin: 3rem auto;
   /*INFO CHIP CONTEINER*/
 }
 
@@ -36,5 +38,32 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+/*INSIDE INFO-CHIP CONTEINER*/
+.info-chip-conteiner {
+  /*PHOTO BOX*/
+  /*PHOTO*/
+}
+
+.info-chip-conteiner .profile-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px auto;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  background-color: rgba(23, 22, 41, 0.9);
+}
+
+.info-chip-conteiner .photo {
+  margin: 10px auto;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
 }
 /*# sourceMappingURL=index.css.map */

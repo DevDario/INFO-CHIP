@@ -13,14 +13,39 @@ body{
 /*INFO CHIP*/
 .info-chip{
     width: 450px;
-    height: 350px;
+    height: 550px;
     border-radius:50px;
-    background-color:rgba(18, 17, 29, 0.588);
+    padding:10px;
+    background-color:rgba(27, 25, 48, 0.490);
+    margin:3rem auto;
 
     /*INFO CHIP CONTEINER*/
     .info-chip-conteiner{
         display:flex;
         flex-direction:column;
         justify-content:center;
+    }
+}
+
+/*INSIDE INFO-CHIP CONTEINER*/
+.info-chip-conteiner{
+
+    /*PHOTO BOX*/
+    .profile-photo{
+        display:flex;
+        justify-content: center;
+        margin:10px auto;
+        border-radius: 100%;
+        width: 120px;
+        height: 120px;
+        background-color: rgba(23, 22, 41, .900);
+    }
+
+    /*PHOTO*/
+    .photo{
+        margin:10px auto;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
     }
 }
