@@ -82,7 +82,8 @@ body{
 .info-chip-links{
     display:flex;
     flex-direction:column;
-    margin-left: 40px;
+    margin:6rem auto auto 40px;
+    gap:20px;
 
 
     /*PORTFOLIO SECTION*/
@@ -127,5 +128,23 @@ body{
 
     }
 
-    
+    /*GITHUB SECTION*/
+    .github-section{
+        display:flex;
+        flex-direction: row;
+        gap:10px;
+
+        /*THE ICON*/
+        .github-icon{
+            width: 44px;
+            height: 44px;
+        }
+
+        /*THE ICON NAME*/
+        .icon-name{
+            font-weight: 200;
+            color:#FFF;
+            margin:10px 0px;
+        }
+    }
 }

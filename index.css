@@ -109,9 +109,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 40px;
+  margin: 6rem auto auto 40px;
+  gap: 20px;
   /*PORTFOLIO SECTION*/
   /*LINKEDIN SECTION*/
+  /*GITHUB SECTION*/
 }
 
 .info-chip-links .portfolio-section {
@@ -157,6 +159,30 @@ body {
 }
 
 .info-chip-links .linkedin-section .icon-name {
+  font-weight: 200;
+  color: #FFF;
+  margin: 10px 0px;
+}
+
+.info-chip-links .github-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  /*THE ICON*/
+  /*THE ICON NAME*/
+}
+
+.info-chip-links .github-section .github-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.info-chip-links .github-section .icon-name {
   font-weight: 200;
   color: #FFF;
   margin: 10px 0px;
