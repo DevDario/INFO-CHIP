@@ -22,6 +22,7 @@ body{
     padding:10px;
     background-color:rgba(27, 25, 48, 0.490);
     margin:3rem auto;
+    animation:CardAnimation1 5s ease-in-out infinite;
 
     /*INFO CHIP CONTEINER*/
     .info-chip-conteiner{
@@ -150,5 +151,21 @@ body{
             color:#FFF;
             margin:10px 0px;
         }
+    }
+}
+
+/*ANIMATIONS FOR CARD*/
+@keyframes CardAnimation1 {
+    0%{
+        transform:translateY(2rem);
+    }
+
+    50%{
+        transform:translateY(3rem);
+
+    }
+
+    100%{
+        transform:translateY(2rem);
     }
 }

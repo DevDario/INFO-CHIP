@@ -28,6 +28,8 @@ body {
   padding: 10px;
   background-color: rgba(27, 25, 48, 0.49);
   margin: 3rem auto;
+  -webkit-animation: CardAnimation1 5s ease-in-out infinite;
+          animation: CardAnimation1 5s ease-in-out infinite;
   /*INFO CHIP CONTEINER*/
 }
 
@@ -190,5 +192,35 @@ body {
   font-weight: 200;
   color: #FFF;
   margin: 10px 0px;
+}
+
+/*ANIMATIONS FOR CARD*/
+@-webkit-keyframes CardAnimation1 {
+  0% {
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
+  50% {
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
+}
+@keyframes CardAnimation1 {
+  0% {
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
+  50% {
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    -webkit-transform: translateY(2rem);
+            transform: translateY(2rem);
+  }
 }
 /*# sourceMappingURL=index.css.map */
