@@ -225,4 +225,161 @@ body {
 }
 
 /*MOBILE VERSION*/
+@media screen and (max-width: 768px) {
+  /*INFO CHIP*/
+  .info-chip {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px 0px 30px 0px;
+    padding: 10px;
+    background-color: rgba(27, 25, 48, 0.49);
+    margin: 2rem auto;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;
+    /*INFO CHIP CONTEINER*/
+  }
+  .info-chip .info-chip-conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /*INSIDE INFO-CHIP CONTEINER*/
+  .info-chip-conteiner {
+    /*PHOTO BOX*/
+    /*PHOTO*/
+  }
+  .info-chip-conteiner .profile-photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 10px auto;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(23, 22, 41, 0.9);
+  }
+  .info-chip-conteiner .photo {
+    margin: 10px auto;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+  }
+  /*PROFILE NAME AND PROFILE OCCUPATION*/
+  .info-chip-conteiner .profile-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /*THE NAME*/
+  }
+  .info-chip-conteiner .profile-name h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #FFF;
+  }
+  .info-chip-conteiner .profile-occupation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /*THE OCCUPATION*/
+  }
+  .info-chip-conteiner .profile-occupation h4 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFF;
+  }
+  /*INFO CHIP LINKS SECTIONS*/
+  .info-chip-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 6rem auto auto 40px;
+    gap: 20px;
+    /*PORTFOLIO SECTION*/
+    /*LINKEDIN SECTION*/
+    /*GITHUB SECTION*/
+  }
+  .info-chip-links .portfolio-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 10px;
+    /*THE ICON*/
+    /*THE ICON NAME*/
+  }
+  .info-chip-links .portfolio-section .portfolio-icon {
+    width: 44px;
+    height: 44px;
+  }
+  .info-chip-links .portfolio-section .icon-name {
+    font-weight: 200;
+    color: #FFF;
+    margin: 10px 0px;
+  }
+  .info-chip-links .linkedin-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 10px;
+    /*THE ICON*/
+    /*THE ICON NAME*/
+  }
+  .info-chip-links .linkedin-section .linkedin-icon {
+    width: 44px;
+    height: 44px;
+  }
+  .info-chip-links .linkedin-section .icon-name {
+    font-weight: 200;
+    color: #FFF;
+    margin: 10px 0px;
+  }
+  .info-chip-links .github-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 10px;
+    /*THE ICON*/
+    /*THE ICON NAME*/
+  }
+  .info-chip-links .github-section .github-icon {
+    width: 44px;
+    height: 44px;
+  }
+  .info-chip-links .github-section .icon-name {
+    font-weight: 200;
+    color: #FFF;
+    margin: 10px 0px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
