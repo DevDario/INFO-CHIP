@@ -1,0 +1,13 @@
+/*VARIABLES*/
+$bodyColor:#0E0C14;
+$chipColor:#12111D;
+
+/*RESET*/
+*{
+    padding: 0; margin: 0; top: 0; bottom: 0; left: 0; right: 0; box-sizing: border-box; font-family:'poppins',Arial, Helvetica, sans-serif;
+}
+
+/*BODY*/
+body{
+    background-color: $bodyColor;
+}
