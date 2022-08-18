@@ -104,4 +104,28 @@ body{
             margin:10px 0px;
         }
     }
+
+    /*LINKEDIN SECTION*/
+    .linkedin-section{
+        display:flex;
+        flex-direction: row;
+        gap:10px;       
+    
+
+    /*THE ICON*/
+    .linkedin-icon{
+        width: 44px;
+        height: 44px;
+    }
+
+    /*THE ICON NAME*/
+    .icon-name{
+        font-weight:200;
+        color:#FFF;
+        margin:10px 0px;
+    }
+
+    }
+
+    
 }
