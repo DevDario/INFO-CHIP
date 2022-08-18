@@ -49,3 +49,31 @@ body{
         height: 100px;
     }
 }
+
+/*PROFILE NAME AND PROFILE OCCUPATION*/
+.info-chip-conteiner{
+
+    .profile-name{
+        display:flex;
+        justify-content: center;
+
+        /*THE NAME*/
+        h1{
+            font-weight:500;
+            font-size:28px;
+            color:#FFF;
+        }
+    }
+
+    .profile-occupation{
+        display:flex;
+        justify-content: center;
+
+        /*THE OCCUPATION*/
+        h4{
+            font-weight:300;
+            font-size: 18px;
+            color:#FFF;
+        }
+    }
+}
